@@ -103,7 +103,7 @@ class CatalogPage extends Component {
                     </Card.Body>
                   </Card>
                 ))}
-                {!this.state.products.length && <h1>Товарів за данними фільтрами не знайдено</h1>}
+                {!this.state.products.length && <h1>Товарів за даними фільтрами не знайдено</h1>}
               </div>
             </Col>
             {!!this.props.selectedProducts && !!this.props.selectedProducts.length && (
