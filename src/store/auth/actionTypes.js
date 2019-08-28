@@ -1,0 +1,1 @@
+export const SET_USER_TOKEN = 'auth.SET_USER_TOKEN';
