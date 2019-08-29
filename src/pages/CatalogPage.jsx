@@ -132,7 +132,7 @@ class CatalogPage extends Component {
             </Modal.Header>
             <Modal.Body>
               <img src={this.state.selected.image} style={{ maxWidth: "100%" }} />
-              {!this.props.token && <h5>Зареэструйтесь або ввійдіть в свій аккаунт для замовлення</h5>}
+              {!this.props.token && <h5>Зареэструйтесь або увійдіть в свій аккаунт для замовлення</h5>}
               <p className="mt-3">{this.state.selected.description}</p>
             </Modal.Body>
             <Modal.Footer>
